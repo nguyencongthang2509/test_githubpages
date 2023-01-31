@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center>
+        <h1>QUẢN LÝ BÁN HÀNG</h1>
+        <select name="" id="mucgia">
+            <option value="" hidden>Mức giá</option>
+            <option value="1">Dưới 250</option>
+            <option value="2">Từ 250 đến 500</option>
+            <option value="3">Trên 500</option>
+            <option value="4">Tất cả mức giá</option>
+        </select>
+        <div id="capnhat"></div>
+    </center>
+    <hr>
+    <center>
+        <form id="myForm">
+            <h2>Thêm mới sản phẩm</h2>
+            <input type="text" id="newname" placeholder="Product Name"><br><br>
+            <input type="text" id="newprice" placeholder="Product Price"><br><br>
+            Quantity: <input type="number" id="newquantity" value="0" disabled><br><br>
+            <button id="addnewproduct">Add New Product</button>
+        </form>
+    </center>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox" id="CheckBoxCha"></th>
+                <th>Hàng hóa</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th>Xóa sản phẩm</th>
+                <th>Cập nhật</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Tổng</td>
+                <td>
+                    <div id="sumPrice"></div>
+                </td>
+                <td>
+                    <button id="khoiphuc">Khôi phục</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

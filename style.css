@@ -1,0 +1,87 @@
+table {
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgb(216, 94, 94);
+}
+
+th {
+    border: 1px solid black;
+    color: red;
+    background-color: rgb(195, 195, 235);
+}
+
+td {
+    border: 1px solid black;
+    color: rgb(8, 79, 130);
+    background-color: rgb(242, 167, 189);
+}
+
+input {
+    background-color: rgb(247, 193, 193);
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 5px red, 0px 0px 5px red, 0px 0px 5px red, 0px 0px 15px red, 0px 0px 15px red, 0px 0px 5px red;
+}
+
+hr {
+    width: 50%;
+}
+
+#tenhanghoa {
+    display: none;
+}
+
+#dongiamoi {
+    display: none;
+}
+
+#newname {
+    width: 680px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#newprice {
+    width: 680px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#newquantity {
+    width: 616px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#addnewproduct {
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(100, 100, 244);
+    color: white;
+}
+
+#addnewproduct:hover {
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 180);
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../baibanhangasm/20181030_SCRACTHCO2435-1024x683-1.jpg);
+    background-size: 100%;
+    font-size: 25px;
+}
+#myForm1{
+    border: 1px solid black;
+    background-color:  rgb(195, 195, 235);
+    width: 50%;
+    border-radius: 30px;
+}
